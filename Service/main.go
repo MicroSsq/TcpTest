@@ -9,6 +9,7 @@ var
   srv *TcpSer.MsTcpSer
 func main(){
 	fmt.Println("hello world")
-	srv = TcpSer.GetSer()
-	go srv.Run()
+	srv = new(TcpSer.MsTcpSer)
+	srv.InitSer()
+	srv.Run()
 }
