@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"TcpTest/TcpSer"
+	"TcpTest/Service/TcpSer"
 )
 
 var
