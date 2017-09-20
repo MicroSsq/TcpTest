@@ -28,6 +28,7 @@ func (cli *MsClient)OnReciver()error {
 		bf.WriteString(time.Now().Format("2006-01-02 15:04:05"))
 		cli.conn.Write(bf.Bytes())
 
+
 	}
 }
 
